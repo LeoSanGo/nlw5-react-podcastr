@@ -34,10 +34,10 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
         {latestEpisodes.map(episode => {
           return (
             <li key={episode.id}>
-              <Image
+              <Image 
                 width={192}
                 height={192}
-                src={episode.thumbnail}
+                src={episode.thumbnail} 
                 alt={episode.title}
                 objectFit="cover"
               />
