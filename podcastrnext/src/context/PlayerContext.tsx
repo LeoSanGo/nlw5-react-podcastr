@@ -59,7 +59,7 @@ export function PlayerContextProvider({
   }
 
   function toggleLoop() {
-    setisPlaying(!isLooping);
+    setIsLooping(!isLooping);
   }
 
   function toggleShuffle() {
